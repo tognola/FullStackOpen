@@ -1,11 +1,11 @@
 import Part from "./Part";
 
-const Content = ({ part1, exercises1, part2, exercises2, part3, exercises3}) => {
+const Content = ({ course }) => {
     return (
         <div>
-            <Part part = {part1} excercise = {exercises1} />
-            <Part part = {part2} excercise = {exercises2} />
-            <Part part = {part3} excercise = {exercises3} />
+            <Part part = {course.parts[0]} />
+            <Part part = {course.parts[1]} />
+            <Part part = {course.parts[2]} />
         </div>
     )
 }
