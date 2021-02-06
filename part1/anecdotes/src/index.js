@@ -16,7 +16,7 @@ const App = (props) => {
     console.log(index, copy)
     setVotes(copy);
   }
-
+  
   const getMax = () => {
     let voteMax = Math.max.apply(Math, votes);
     return {
